@@ -1,0 +1,228 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body, html {
+    background-color: #dbcabf;
+    height: 100%;
+    margin-top: 120px;
+}
+
+/* Head */
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    overflow: hidden;
+    color: white;
+    background-color: #89664e;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    padding: 10px;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar .divinelogo {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 20px;
+}
+
+.navbar .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.navbar .title {
+    margin-bottom: 10px;
+}
+
+.navbar ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+}
+
+/* Body */
+
+/* publi */
+
+.publi {
+    width: 60%;
+    height: 50%;
+    display: block;
+    margin: 0 auto;
+    margin-top: 90px;
+    border-radius: 20px;
+}
+
+/* Sobre */
+
+.container {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #89664e;
+    margin-top: 150px;
+    border-radius: 20px;
+    width: 60%;
+    padding: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 5px;
+}
+
+.title-02 {
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #ffffff;
+}
+
+.about-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-text {
+    max-width: 800px;
+}
+
+.paragrapher {
+    font-size: 16px;
+    line-height: 1.8;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+.paragrapher.slogan {
+    font-size: 20px;
+    text-align: center;
+    font-style: italic;
+    color: #dbcabf;
+    margin-top: 30px;
+    font-weight: bold;
+}
+
+/* Table */
+
+.table-container {
+    width: 80%;
+    margin: 150px auto;
+    text-align: center;
+}
+
+.table-title {
+    color: #89664e;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 28px;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+table {
+    color: white;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    background-color: #89664e;
+    margin: 0 auto;
+    border-radius: 20px;
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 5px;
+    border-spacing: 0;
+    overflow: hidden;
+}
+
+table thead {
+    background-color: #6d4c3b;
+}
+
+table th {
+    padding: 20px;
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+table td {
+    padding: 15px;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+table tbody tr:hover {
+    background-color: #7d5a48;
+    transition: background-color 0.3s ease;
+}
+
+/* Footer */
+
+footer {
+    background-color: #89664e;
+    margin-top: 100px;
+    color: white;
+    padding: 40px 0 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.contact-info {
+    text-align: center;
+}
+
+.contact-info h3 {
+    font-size: 20px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.contact-info p {
+    margin: 10px 0;
+    font-size: 16px;
+}
+
+.contact-info {
+    margin-right: 10px;
+    color: #ffffff;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 40px;
+    padding-top: 20px;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.footer-bottom p {
+    font-size: 14px;
+    color: #dbcabf;
+}
